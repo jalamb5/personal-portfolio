@@ -13,6 +13,10 @@ header {
   padding: 8px;
 }
 
+.profile-pic {
+  border-radius: 50%;
+}
+
 .devicon-github-original, .devicon-linkedin-plain {
   text-decoration: none;
   font-size: 1.5rem;
