@@ -9,7 +9,7 @@ body {
   grid-template-rows: .5fr, 1fr, 2fr, 1fr;
   grid-template-columns: 1fr;
   background-color: var(--main-bg-color);
-  padding: 2px;
+  padding: 1em;
   color: var(--accent-color);
   justify-items: center;
   max-width: 1080px;
