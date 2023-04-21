@@ -1,7 +1,14 @@
+:root {
+  --main-bg-color: #468189;
+  --secondary-bg-color: #77ACA2;
+  --accent-color: #9DBEBB;
+}
+
 body {
   display: grid;
   grid-template-rows: 1fr, 2fr, 1fr;
   grid-template-columns: 1fr;
+  background-color: var(--main-bg-color);
 }
 
 header {
@@ -9,8 +16,13 @@ header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 4px;
-  background-color: aliceblue;
+  background-color: var(--secondary-bg-color);
   padding: 8px;
+  align-items: center;
+}
+
+.profile {
+  justify-self: center;
 }
 
 .profile-pic {
@@ -19,7 +31,7 @@ header {
 
 .devicon-github-original, .devicon-linkedin-plain {
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 
 .portfolio {
@@ -29,15 +41,21 @@ header {
 .projects {
   display: grid;
   grid-template: repeat(3, 1fr) / repeat(2, 1fr);
-  grid-gap: 4px;
+  grid-gap: 1em;
   list-style: none;
+  padding: 2px;
 }
 
 .project {
-  background-color: antiquewhite;
+  background-color: var(--accent-color);
   padding: 4px;
+  box-shadow: 1px 5px 3px;
+  border-radius: 1%;
 }
 
 footer {
-  background-color: aliceblue;
+  background-color: var(--secondary-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
