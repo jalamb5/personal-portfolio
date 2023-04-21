@@ -12,6 +12,9 @@ body {
   padding: 2px;
   color: var(--accent-color);
   justify-items: center;
+  max-width: 1080px;
+	margin: 0 auto !important;
+	float: none !important;
 }
 
 a {
