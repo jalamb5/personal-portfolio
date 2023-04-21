@@ -30,7 +30,7 @@ header {
 
 .profile-pic {
   border-radius: 50%;
-  width: 200px;
+  max-width: 200px;
 }
 
 .devicon-github-original, .devicon-linkedin-plain {
