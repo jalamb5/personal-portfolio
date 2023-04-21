@@ -14,6 +14,10 @@ body {
   justify-items: center;
 }
 
+a {
+  color: var(--accent-color);
+}
+
 header {
   grid-row: 2;
   display: grid;
