@@ -1,6 +1,6 @@
 :root {
   --main-bg-color: white;
-  --secondary-bg-color: white;
+  --secondary-bg-color: rgb(226, 174, 174);
   --accent-color: #7763b2;
 }
 
@@ -60,8 +60,8 @@ header {
 .project {
   background-color: var(--secondary-bg-color);
   padding: 4px;
-  /* box-shadow: 1px 5px 3px; */
-  border: solid #7763b2;
+  box-shadow: 1px 5px 3px;
+  /* border: solid #7763b2; */
   border-radius: 1%;
 }
 
