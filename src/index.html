@@ -4,29 +4,32 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link href="/dist/output.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
   <title>Justin Lamb</title>
 </head>
-<body>
-  <h1>Justin Lamb</h1>
-  <header>
-    <div class="profile">
-      <img src="assets/Justin Profile Square.jpeg" alt="Justin Lamb profile picture" class="profile-pic">
-    </div>
-    <div>
-      <h2>About Me</h2>
-      <p>I am tech professional with over a decade of experience in operations, product analysis, and program management. I've recently been working to become a web developer with a focus on Ruby, Ruby on Rails, JS, CSS, and HTML.</p>
-      <div class="contact-icons">
-        <a href="https://linkedin.com/in/ijustin" class="devicon-linkedin-plain"></a>
-        <a href="http://github.com/jalamb5" class="devicon-github-original"></a>
-      </div>
+<body class="m-2">
+  <header class="flex text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight sm:text-left justify-center items-center">
+    <img src="../assets/Justin Profile Square.jpeg" alt="Justin Lamb profile picture" class="profile-pic w-[150px] rounded-full col-span-1">
+    <div class="ml-3">
+      <h1 class="text-jl-purple">Justin Lamb</h1>
+      <strong class="">Full-Stack Web Dev</strong>
     </div>
   </header>
 
+  <div>
+    <h2>About Me</h2>
+    <p>I am tech professional with over a decade of experience in operations, product analysis, and program management. I've recently been working to become a web developer with a focus on Ruby, Ruby on Rails, JS, CSS, and HTML.</p>
+    <div class="contact-icons">
+      <a href="https://linkedin.com/in/ijustin" class="devicon-linkedin-plain"></a>
+      <a href="http://github.com/jalamb5" class="devicon-github-original"></a>
+    </div>
+  </div>
+
   <section class="portfolio">
-    <h1>My Work</h1>
-    <ul class="projects">
+    <h1>Projects</h1>
+    <ul class="projects grid auto-rows-auto grid-cols-2 gap-5">
       <li class="project">
         <h2>Etch-A-Sketch</h2>
         <p>Etch-A-Sketch for web, built using HTML, CSS, & Javascript.</p>
