@@ -570,6 +570,10 @@ video {
   width: 40px;
 }
 
+.auto-cols-auto {
+  grid-auto-columns: auto;
+}
+
 .auto-rows-auto {
   grid-auto-rows: auto;
 }
@@ -588,6 +592,14 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
 }
 
 .justify-evenly {
