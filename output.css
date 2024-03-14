@@ -575,6 +575,14 @@ video {
   width: 45px;
 }
 
+.w-\[43px\] {
+  width: 43px;
+}
+
+.max-w-screen-lg {
+  max-width: 1024px;
+}
+
 .auto-rows-auto {
   grid-auto-rows: auto;
 }
@@ -643,6 +651,11 @@ video {
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .py-0 {
