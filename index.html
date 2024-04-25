@@ -15,27 +15,32 @@
 
   <link rel="stylesheet" href="./dist/output.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-  <title>Justin Lamb</title>
+  <title>Justin Lamb Portfolio</title>
 </head>
 <body class="max-w-800 mx-auto">
-  <header class="flex text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight sm:text-left justify-center items-center m-10">
+
+  <header class="flex justify-around bg-gray-100 text-jl-purple p-2">
+    <a href="#projects">Projects</a>
+    <a href="http://github.com/jalamb5">Github</a>
+    <a href="https://linkedin.com/in/ijustin">LinkedIn</a>
+    <a href="https://blog.justinlamb.org">Blog</a>
+    <a href="#contact">Contact</a>
+  </header>
+
+  <div class="flex text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight sm:text-left justify-center items-center m-10">
     <img src="./assets/Justin Profile Square.jpeg" alt="Justin Lamb profile picture" class="profile-pic w-[150px] rounded-full col-span-1">
     <div class="ml-3">
       <h1 class="text-jl-purple">Justin Lamb</h1>
       <strong class="">Full-Stack Web Dev</strong>
     </div>
-  </header>
-
-  <div class="bg-jl-purple text-white text-center p-5">
-    <p class="max-w-screen-lg mx-auto px-4">Tech professional and certified Scrum Master (CSM) with over a decade of experience in operations, product analysis, and program management. <br> Self-taught web developer with a focus on Ruby, Ruby on Rails, JS, React, CSS, and HTML.</p>
-    <div class="contact-icons pt-5 text-3xl">
-      <a href="https://linkedin.com/in/ijustin" class="devicon-linkedin-plain"></a>
-      <a href="http://github.com/jalamb5" class="devicon-github-original"></a>
-    </div>
-    <p></p>
   </div>
 
-  <section class="portfolio bg-secondary p-5">
+  <div class="bg-jl-purple text-white text-center p-5">
+    <p class="max-w-screen-lg mx-auto px-4">Tech professional and certified Scrum Master (CSM) with over a decade of experience in operations, product analysis, and program management.</p>
+    <p class="max-w-screen-lg mx-auto px-4">Self-taught web developer with a focus on Ruby, Ruby on Rails, JS, React, CSS, and HTML.</p>
+  </div>
+
+  <section class="portfolio bg-secondary p-5" id="projects">
     <h1 class="text-3xl font-bold text-center mb-5 text-white">Projects</h1>
     <ul class="projects grid auto-rows-auto md:grid-cols-2 sm:grid-cols-1 gap-5 max-w-screen-lg mx-auto px-4">
 
@@ -138,7 +143,7 @@
     </ul>
   </section>
 
-  <section class="bg-jl-purple text-white text-center p-5">
+  <section class="bg-jl-purple text-white text-center p-5" id="contact">
     <div class="contact-icons text-3xl flex justify-evenly max-w-screen-lg mx-auto px-4">
       <a href="https://linkedin.com/in/ijustin" class="devicon-linkedin-plain"></a>
       <a href="http://github.com/jalamb5" class="devicon-github-original"></a>
