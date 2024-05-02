@@ -571,6 +571,18 @@ html {
   height: 250px;
 }
 
+.h-1\/5 {
+  height: 20%;
+}
+
+.max-h-1 {
+  max-height: 0.25rem;
+}
+
+.max-h-48 {
+  max-height: 12rem;
+}
+
 .w-\[150px\] {
   width: 150px;
 }
@@ -579,8 +591,32 @@ html {
   width: 250px;
 }
 
+.w-\[300px\] {
+  width: 300px;
+}
+
+.w-\[250\] {
+  width: 250;
+}
+
+.w-2\/5 {
+  width: 40%;
+}
+
+.w-3\/5 {
+  width: 60%;
+}
+
 .max-w-screen-lg {
   max-width: 1024px;
+}
+
+.grid-flow-row {
+  grid-auto-flow: row;
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
 }
 
 .flex-col {
@@ -656,6 +692,26 @@ html {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.object-fill {
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.object-scale-down {
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
 }
 
 .p-1 {
