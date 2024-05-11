@@ -50,7 +50,7 @@ export const projects = [
     title: "Discworld Shuffle",
     description:
       "A React based memory game using Open Library's cover API. Attempt to beat your high score by not clicking the same novel twice.",
-    image: "../assets/Discworld_Shuffle.jpeg",
+    image: "./assets/Discworld_Shuffle.jpeg",
     imageAlt: "Screenshot of Discworld Shuffle",
     tech: ["React", "Vite", "JavaScript", "HTML", "CSS", "Netlify", "Github"],
     link: "https://github.com/jalamb5/discworld-shuffle",
@@ -60,7 +60,7 @@ export const projects = [
     title: "CV Builder",
     description:
       "A React based CV/Resume builder with the ability to add additional sections and view completed CV.",
-    image: "../assets/CV_Builder.jpeg",
+    image: "./assets/CV_Builder.jpeg",
     imageAlt: "Screenshot of CV Builder",
     tech: ["React", "Vite", "JavaScript", "HTML", "CSS", "Netlify", "Github"],
     link: "https://github.com/jalamb5/CV-app/",
@@ -70,7 +70,7 @@ export const projects = [
     title: "Etch-A-Sketch",
     description:
       "Etch-A-Sketch for web. Use multiple pen sizes and colors to draw and erase or shake the board to reset.",
-    image: "../assets/etch.png",
+    image: "./assets/etch.png",
     imageAlt: "Screenshot of etch-a-sketch web page",
     tech: ["JavaScript", "HTML", "CSS", "Github"],
     link: "https://github.com/jalamb5/etch-a-sketch",
@@ -80,7 +80,7 @@ export const projects = [
     title: "Battleship",
     description:
       "Game of Battleship against AI opponent. Built using vanilla JavaScript, CSS, & HTML.",
-    image: "../assets/battleship.png",
+    image: "./assets/battleship.png",
     imageAlt: "Screenshot of battleship web page",
     tech: ["JavaScript", "HTML", "CSS", "Github"],
     link: "https://github.com/jalamb5/battleship",
@@ -90,7 +90,7 @@ export const projects = [
     title: "SimpleBook",
     description:
       "Facebook-style web app built with Ruby on Rails. Using Devise gem for account creation and login. Ability to post, delete, comment, like, and follow other users.",
-    image: "../assets/simplebook.png",
+    image: "./assets/simplebook.png",
     imageAlt: "Screenshot of simplebook web page",
     tech: ["Ruby on Rails", "Ruby", "JavaScript", "HTML", "CSS", "Github"],
     link: "https://github.com/jalamb5/odin-facebook",
@@ -99,7 +99,7 @@ export const projects = [
     title: "Connect Four",
     description:
       "Play Connect Four in the command line. Built using TDD with Ruby and RSpec.",
-    image: "../assets/connectfour.png",
+    image: "./assets/connectfour.png",
     imageAlt: "Screenshot of connect four game in command line",
     tech: ["Ruby", "RSpec", "Github"],
     link: "https://github.com/jalamb5/connect_four",
@@ -108,7 +108,7 @@ export const projects = [
     title: "Local To-Dos",
     description:
       "Todo list app built with vanilla JavaScript. Create todos in local storage with the ability to make multiple lists, mark as done, delete, and filter.",
-    image: "../assets/todo.png",
+    image: "./assets/todo.png",
     imageAlt: "Screenshot of local todos web page",
     tech: ["JavaScript", "HTML", "CSS", "Github"],
     link: "https://github.com/jalamb5/js-todo",
@@ -118,7 +118,7 @@ export const projects = [
     title: "Weather App",
     description:
       "Check the current weather and forecast via weatherAPI. Built with vanilla JavaScript, CSS, & HTML.",
-    image: "../assets/weather.png",
+    image: "./assets/weather.png",
     imageAlt: "Screenshot of weather app web page",
     tech: ["JavaScript", "HTML", "CSS", "Github"],
     link: "https://github.com/jalamb5/weather",
@@ -137,7 +137,7 @@ export const projects = [
     title: "Admin Dashboard Design",
     description:
       "A CSS & HTML only design for an admin dashboard.",
-    image: "../assets/admindashboard.png",
+    image: "./assets/admindashboard.png",
     imageAlt: "Screenshot of admin dashboard web page",
     tech: ["HTML", "CSS", "Github"],
     link: "https://github.com/jalamb5/odin-admin-dashboard",
