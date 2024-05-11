@@ -87,13 +87,13 @@ export const projects = [
     live: "https://jalamb5.github.io/battleship/",
   },
   {
-    title: "SimpleBook",
+    title: "Socialize",
     description:
       "Facebook-style web app built with Ruby on Rails. Using Devise gem for account creation and login. Ability to post, delete, comment, like, and follow other users.",
     image: "./assets/simplebook.png",
-    imageAlt: "Screenshot of simplebook web page",
+    imageAlt: "Screenshot of Socialize web page",
     tech: ["Ruby on Rails", "Ruby", "JavaScript", "HTML", "CSS", "Github"],
-    link: "https://github.com/jalamb5/odin-facebook",
+    link: "https://github.com/jalamb5/socialize",
   },
   {
     title: "Connect Four",
