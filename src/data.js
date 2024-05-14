@@ -57,14 +57,13 @@ export const projects = [
     live: "https://discworldshuffle.netlify.app/",
   },
   {
-    title: "CV Builder",
-    description:
-      "A React based CV/Resume builder with the ability to add additional sections and view completed CV.",
-    image: "./assets/CV_Builder.jpeg",
-    imageAlt: "Screenshot of CV Builder",
+    title: "Rio Grande",
+    description: "A shopping site using products from FakeStore API.",
+    image: "./assets/rio_grande.png",
+    imageAlt: "Screenshot of rio grande web page",
     tech: ["React", "Vite", "JavaScript", "HTML", "CSS", "Netlify", "Github"],
-    link: "https://github.com/jalamb5/CV-app/",
-    live: "https://thunderous-sopapillas-4e3f70.netlify.app/",
+    link: "https://github.com/jalamb5/rio-grande",
+    live: "https://riogrande.netlify.app/",
   },
   {
     title: "Etch-A-Sketch",
@@ -128,15 +127,29 @@ export const projects = [
     title: "'Daily Note' Cleanup Scripts for Obsidian",
     description:
       "Ruby & Python scripts to perform periodic cleanup actions on files created via Obsidian's Daily Notes plugin. Compares new files against a template to remove empty notes & archives older notes.",
-    image: "https://github.com/jalamb5/Daily-Note-Cleanup/raw/main/daily_note_cleanup.png",
+    image:
+      "https://github.com/jalamb5/Daily-Note-Cleanup/raw/main/daily_note_cleanup.png",
     imageAlt: "Screenshot of script",
     tech: ["Ruby", "Python", "Github"],
     link: "https://github.com/jalamb5/Daily-Note-Cleanup",
   },
   {
-    title: "Admin Dashboard Design",
+    title: "CV Builder",
     description:
-      "A CSS & HTML only design for an admin dashboard.",
+      "A React based CV/Resume builder with the ability to add additional sections and view completed CV.",
+    image: "./assets/CV_Builder.jpeg",
+    imageAlt: "Screenshot of CV Builder",
+    tech: ["React", "Vite", "JavaScript", "HTML", "CSS", "Netlify", "Github"],
+    link: "https://github.com/jalamb5/CV-app/",
+    live: "https://thunderous-sopapillas-4e3f70.netlify.app/",
+  },
+];
+
+
+const oldProjects = [
+  {
+    title: "Admin Dashboard Design",
+    description: "A CSS & HTML only design for an admin dashboard.",
     image: "./assets/admindashboard.png",
     imageAlt: "Screenshot of admin dashboard web page",
     tech: ["HTML", "CSS", "Github"],
