@@ -58,7 +58,7 @@ export const projects = [
   },
   {
     title: "Rio Grande",
-    description: "A shopping site using products from FakeStore API.",
+    description: "A shopping site using products from FakeStore API. Setup using React Router, cart value updates in real time.",
     image: "./assets/rio_grande.png",
     imageAlt: "Screenshot of rio grande web page",
     tech: ["React", "Vite", "JavaScript", "HTML", "CSS", "Netlify", "Github"],
