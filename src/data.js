@@ -47,6 +47,16 @@ export const techIcons = [
 
 export const projects = [
   {
+    title: "Idle Garden",
+    description:
+      "Farming game inspired by 'clicker' and automation games. Built using DragonRuby Game Toolkit. Written entirely in Ruby, compiled as binaries for Mac, Windows, and Linux or playable on the web via Itch.io.",
+    image: "./assets/idle_garden_banner.jpeg",
+    imageAlt: "Screenshot of Idle Garden splash screen",
+    tech: ["Ruby", "Github"],
+    link: "https://github.com/jalamb5/Idle-Garden",
+    live: "https://jalamb5.itch.io/idle-garden?secret=J2TCXeku8qAyG6W77YVA3QptgXc",
+  },
+  {
     title: "Discworld Shuffle",
     description:
       "A React based memory game using Open Library's cover API. Attempt to beat your high score by not clicking the same novel twice.",
@@ -58,7 +68,8 @@ export const projects = [
   },
   {
     title: "Rio Grande",
-    description: "A shopping site using products from FakeStore API. Setup using React Router, cart value updates in real time.",
+    description:
+      "A shopping site using products from FakeStore API. Setup using React Router, cart value updates in real time.",
     image: "./assets/rio_grande.png",
     imageAlt: "Screenshot of rio grande web page",
     tech: ["React", "Vite", "JavaScript", "HTML", "CSS", "Netlify", "Github"],
