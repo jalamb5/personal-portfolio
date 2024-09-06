@@ -28,19 +28,19 @@ export function ProjectCard(project) {
 
   // Construct HTML for project card using project data
   card.innerHTML = `
-      <img src=${project.image} alt=${project.imageAlt}" class="sm:w-2/5 rounded hover:scale-110 duration-500">
-      <div class="pl-8 flex flex-col justify-between sm:w-3/5">
-        <h2 class="text-2xl font-bold pb-2 text-jl-purple ">${project.title}</h2>
-        <p class=" text-secondary font-light">${project.description}</p>
-        <div>
-          <h3 class="text-secondary text-sm">Tech</h3>
-          <p class="text-icons opacity-75 pb-2">
-            ${techIconsHtml}
-          </p>
-        <div class="flex items-center space-x-4">
-          <a href=${project.link} class="text-jl-purple bg-light border-solid border-2 border-jl-purple hover:bg-purple-100 focus:ring-4 focus:ring-purple-300 font-medium rounded-full px-2 py-0.5">Code</a>
-          ${liveHtml()}
-        </div>
+        <img src=${project.image} alt=${project.imageAlt}" class="sm:w-2/5 rounded hover:scale-110 duration-500">
+        <div class="pl-8 flex flex-col justify-between sm:w-3/5">
+          <h2 class="text-2xl font-bold pb-2 text-jl-purple ">${project.title}</h2>
+          <p class=" text-secondary font-light">${project.description}</p>
+          <div>
+            <h3 class="text-secondary text-sm">Tech</h3>
+            <p class="text-icons opacity-75 pb-2">
+              ${techIconsHtml}
+            </p>
+          <div class="flex items-center space-x-4">
+            <a href=${project.link} class="text-jl-purple bg-light border-solid border-2 border-jl-purple hover:bg-purple-100 focus:ring-4 focus:ring-purple-300 font-medium rounded-full px-2 py-0.5">Code</a>
+            ${liveHtml()}
+          </div>
         </div>
       </div>
   `;
