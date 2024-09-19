@@ -50,7 +50,7 @@ export const projects = [
     title: "Idle Garden",
     description:
       "Farming game inspired by 'clicker' and automation games. Built using DragonRuby Game Toolkit. Written entirely in Ruby, compiled as binaries for Mac, Windows, and Linux or playable on the web via Itch.io.",
-    image: "./assets/idle_garden_0.11.png",
+    image: "./assets/idle_garden.png",
     imageAlt: "Screenshot of Idle Garden splash screen",
     tech: ["Ruby", "Github"],
     link: "https://github.com/jalamb5/Idle-Garden",
