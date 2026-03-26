@@ -50,7 +50,7 @@ export const projects = [
     title: "Station Roulette",
     description:
       "A web app for randomly visiting stations around London. Original version built by hand using React. Current version expanded with Mistral Vibe AI. APIs used: TfL, Google Maps, OpenStreetMaps, WeatherAPI, Wikipedia, and Wikimedia Commons.",
-    image: "./assets/station_roulette.png",
+    image: "./assets/Station_Roulette.png",
     imageAlt: "Screenshot of Station Roulette",
     tech: ["React", "Vite", "JavaScript", "HTML", "CSS", "Netlify", "Github"],
     // link: "https://github.com/jalamb5/station-roulette", //project is private
