@@ -47,6 +47,16 @@ export const techIcons = [
 
 export const projects = [
   {
+    title: "Station Roulette",
+    description:
+      "A web app for randomly visiting stations around London. Original version built by hand using React. Current version expanded with Mistral Vibe AI. APIs used: TfL, Google Maps, OpenStreetMaps, WeatherAPI, Wikipedia, and Wikimedia Commons.",
+    image: "./assets/station_roulette.png",
+    imageAlt: "Screenshot of Station Roulette",
+    tech: ["React", "Vite", "JavaScript", "HTML", "CSS", "Netlify", "Github"],
+    // link: "https://github.com/jalamb5/station-roulette", //project is private
+    live: "https://stationroulette.com"
+  },
+  {
     title: "Idle Garden",
     description:
       "Farming game inspired by 'clicker' and automation games. Built using DragonRuby Game Toolkit. Written entirely in Ruby, compiled as binaries for Mac, Windows, and Linux or playable on the web via Itch.io.",

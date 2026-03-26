@@ -26,6 +26,14 @@ export function ProjectCard(project) {
     }
   };
 
+  const codeHtml = () => {
+    if (project.link) {
+      return `<a href=${project.link} class="text-jl-purple bg-light border-solid border-2 border-jl-purple hover:bg-purple-100 focus:ring-4 focus:ring-purple-300 font-medium rounded-full px-2 py-0.5">Code</a>`;
+    } else {
+      return "";
+    }
+  }
+
   // Construct HTML for project card using project data
   card.innerHTML = `
         <img src=${project.image} alt=${project.imageAlt}" class="sm:w-2/5 rounded hover:scale-110 duration-500">
@@ -38,7 +46,7 @@ export function ProjectCard(project) {
               ${techIconsHtml}
             </p>
           <div class="flex items-center space-x-4">
-            <a href=${project.link} class="text-jl-purple bg-light border-solid border-2 border-jl-purple hover:bg-purple-100 focus:ring-4 focus:ring-purple-300 font-medium rounded-full px-2 py-0.5">Code</a>
+            ${codeHtml()}
             ${liveHtml()}
           </div>
         </div>
